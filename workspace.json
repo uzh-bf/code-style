@@ -1,7 +1,32 @@
 {
   "version": 2,
-
-  "projects": {},
+  "projects": {
+    "prettier-config": {
+      "root": "libs/prettier-config",
+      "sourceRoot": "libs/prettier-config/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/prettier-config/**/*.ts"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/prettier-config"
+          ],
+          "options": {
+            "jestConfig": "libs/prettier-config/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    }
+  },
   "cli": {
     "defaultCollection": "@nrwl/workspace"
   }
