@@ -1,12 +1,17 @@
 {
   "private": true,
-  "name": "@uzh-bf/code-style-react-js",
-  "description": "Consistent code style setup for React",
+  "name": "@uzh-bf/code-style-react-ts",
+  "description": "Consistent code style setup for React with Typescript",
   "version": "0.0.1",
   "scripts": {},
+  "dependencies": {
+    "@uzh-bf/code-style-react-js": "^0.0.1"
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.21.0",
-    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
