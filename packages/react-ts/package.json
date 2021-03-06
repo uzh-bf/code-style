@@ -1,14 +1,15 @@
 {
   "name": "@uzh-bf/code-style-react-ts",
   "description": "Consistent code style setup for React with Typescript",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "maintainers": [
+    "Roland Schlaefli <roland.schlaefli@bf.uzh.ch>"
+  ],
   "scripts": {},
   "dependencies": {
-    "@uzh-bf/code-style-react-js": "^0.0.1"
-  },
-  "devDependencies": {
+    "@uzh-bf/code-style-react-js": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.21.0",
@@ -19,5 +20,8 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "typescript": "^4.0.0"
   }
 }

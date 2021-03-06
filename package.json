@@ -2,7 +2,7 @@
   "private": true,
   "name": "@uzh-bf/code-style",
   "description": "Consistent code style setup for UZH-BF projects",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://gitlab.uzh.ch/uzh-bf/common/code-style"
@@ -12,5 +12,13 @@
   ],
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "publish": "npm-run-all --parallel publish:react-js publish:react-ts",
+    "publish:react-js": "cd packages/react-js && npm publish",
+    "publish:react-ts": "cd packages/react-ts && npm publish"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }

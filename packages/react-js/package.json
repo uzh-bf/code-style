@@ -1,11 +1,14 @@
 {
   "name": "@uzh-bf/code-style-react-js",
   "description": "Consistent code style setup for React",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "maintainers": [
+    "Roland Schlaefli <roland.schlaefli@bf.uzh.ch>"
+  ],
   "scripts": {},
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^7.21.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
