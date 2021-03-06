@@ -1,8 +1,9 @@
 {
-  "private": true,
   "name": "@uzh-bf/code-style-react-ts",
   "description": "Consistent code style setup for React with Typescript",
   "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {},
   "dependencies": {
     "@uzh-bf/code-style-react-js": "^0.0.1"
