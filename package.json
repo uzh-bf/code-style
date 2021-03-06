@@ -1,0 +1,14 @@
+{
+  "name": "@uzh-bf/code-style",
+  "description": "Consistent code style setup for UZH-BF projects",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.uzh.ch/uzh-bf/common/code-style"
+  },
+  "maintainers": [
+    "Roland Schlaefli <roland.schlaefli@bf.uzh.ch>"
+  ],
+  "main": "index.js",
+  "scripts": {}
+}
