@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.8...v0.0.9) (2021-03-13)
+
+
+### Features
+
+* disabled react-in-jsx-scope rule ([c39b72d](https://gitlab.uzh.ch/uzh-bf/common/code-style/commit/c39b72d09ef7d3ab873cee29c85bdd8edf841bd8))
+
 ### [0.0.8](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.7...v0.0.8) (2021-03-13)
 
 
