@@ -27,6 +27,6 @@ module.exports = {
   ],
   scripts: {
     postbump:
-      'npm run publish:react-js && npm update --save-exact @uzh-bf/code-style-react-js && npm install && npm run publish:react-ts',
+      'npm run publish:react-js && npm update @uzh-bf/code-style-react-js && npm install && npm run publish:react-ts',
   },
 }
