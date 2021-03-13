@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.12...v0.0.13) (2021-03-13)
+
 ### [0.0.12](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.11...v0.0.12) (2021-03-13)
 
 
