@@ -1,5 +1,7 @@
 module.exports = {
   extends: ['airbnb', 'prettier'],
   plugins: [],
-  rules: {},
+  rules: {
+    'react/react-in-jsx-scope': 0,
+  },
 }

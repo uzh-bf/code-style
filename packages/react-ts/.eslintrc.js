@@ -3,7 +3,7 @@ module.exports = {
   plugins: [],
   rules: {},
   parserOptions: {
-    tsconfigRootDir: __dirname,
+    // tsconfigRootDir: __dirname,
     project: './tsconfig.json',
   },
 }
