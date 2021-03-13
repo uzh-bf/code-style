@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.10...v0.0.11) (2021-03-13)
+
+
+### Features
+
+* add prettier-plugin-organize-imports ([001a6c7](https://gitlab.uzh.ch/uzh-bf/common/code-style/commit/001a6c7c2ab6380c8d5e81082ce7753a946fabe2))
+
 ### [0.0.10](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.9...v0.0.10) (2021-03-13)
 
 

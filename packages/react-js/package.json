@@ -1,7 +1,7 @@
 {
   "name": "@uzh-bf/code-style-react-js",
   "description": "Consistent code style setup for React",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "index.js",
   "license": "MIT",
   "maintainers": [

@@ -1,7 +1,7 @@
 {
   "name": "@uzh-bf/code-style-react-ts",
   "description": "Consistent code style setup for React with Typescript",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "index.js",
   "license": "MIT",
   "maintainers": [
@@ -11,7 +11,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
-    "@uzh-bf/code-style-react-js": "0.0.10",
+    "@uzh-bf/code-style-react-js": "0.0.11",
     "eslint": "^7.21.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.1.0",
