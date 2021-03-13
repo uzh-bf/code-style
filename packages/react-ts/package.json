@@ -1,7 +1,7 @@
 {
   "name": "@uzh-bf/code-style-react-ts",
   "description": "Consistent code style setup for React with Typescript",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "license": "MIT",
   "maintainers": [
