@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.9...v0.0.10) (2021-03-13)
+
+
+### Bug Fixes
+
+* ensure that react-in-jsx-scope is also disabled for TS projects ([028849f](https://gitlab.uzh.ch/uzh-bf/common/code-style/commit/028849f7f567ccc26a2e47ff8c61f7294b388258))
+
 ### [0.0.9](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.8...v0.0.9) (2021-03-13)
 
 
