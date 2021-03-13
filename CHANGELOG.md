@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.6...v0.0.7) (2021-03-13)
+
+
+### Bug Fixes
+
+* versioning issues in top-level files ([e93f85a](https://gitlab.uzh.ch/uzh-bf/common/code-style/commit/e93f85a0f69055645bef779e62e4ad10d7ac3c6a))
+
 ### [0.0.6](https://gitlab.uzh.ch/uzh-bf/common/code-style/compare/v0.0.5...v0.0.6) (2021-03-13)
 
 
