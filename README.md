@@ -26,3 +26,7 @@ Install the package that is relevant in your context and add some or all of the 
 ```
 
 Once you have performed the setup as described above, simply run `npm run format` to execute `prettier` with the shared configuration, or `npm run lint` ro execute `eslint` similarly.
+
+## License
+
+MIT
