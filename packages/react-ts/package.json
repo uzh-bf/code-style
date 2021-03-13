@@ -11,7 +11,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
-    "@uzh-bf/code-style-react-js": "^0.0.4",
+    "@uzh-bf/code-style-react-js": "^0.0.7",
     "eslint": "^7.21.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.1.0",
