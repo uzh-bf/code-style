@@ -1,6 +1,14 @@
 module.exports = {
   bumpFiles: [
     {
+      filename: 'package.json',
+      type: 'json',
+    },
+    {
+      filename: 'package-lock.json',
+      type: 'json',
+    },
+    {
       filename: 'packages/react-js/package.json',
       type: 'json',
     },
@@ -19,6 +27,6 @@ module.exports = {
   ],
   scripts: {
     postbump:
-      'cd packages/react-js && npm publish && cd ../../packages/react-ts && npm update --save-exact @uzh-bf/code-style-react-js && npm publish',
+      'npm run publish:react-js && npm update --save-exact @uzh-bf/code-style-react-js && npm install && npm run publish:react-ts',
   },
 }

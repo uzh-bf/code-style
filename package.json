@@ -15,7 +15,6 @@
   ],
   "scripts": {
     "release": "standard-version",
-    "publish": "npm-run-all --parallel publish:react-js publish:react-ts",
     "publish:react-js": "cd packages/react-js && npm publish",
     "publish:react-ts": "cd packages/react-ts && npm publish"
   },
