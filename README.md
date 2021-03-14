@@ -25,7 +25,27 @@ Install the package that is relevant in your context and add some or all of the 
 "lint:fix": "eslint --fix --ext .js,.ts,.tsx src/"
 ```
 
+Next, you need to create top-level configuration files for `prettier` and `eslint`. Create a file `.prettierrc.js` with the following contents (and take to import from the package you have actually installed):
+
+```
+// .prettierrc.js
+const { prettier } = require('@uzh-bf/code-style-react-ts')
+module.exports = prettier
+```
+
+Also, create an anologous file `.eslintrc.js` with the following contents:
+
+```
+// .eslintrc.js
+const { eslint } = require('@uzh-bf/code-style-react-ts')
+module.exports = eslint
+```
+
 Once you have performed the setup as described above, simply run `npm run format` to execute `prettier` with the shared configuration, or `npm run lint` ro execute `eslint` similarly.
+
+## Project-Level Customization
+
+Configurations can be customized on a project-level by merging the configuration object as imported with one containing your own rules, and exporting the newly merged configuration.
 
 ## License
 
