@@ -41,6 +41,8 @@ const { eslint } = require('@uzh-bf/code-style-react-ts')
 module.exports = eslint
 ```
 
+Finally, create or extend your `.eslintignore` to include `.eslintrc.js`, as that will prevent your ESLint config from causing lint errors itself.
+
 Once you have performed the setup as described above, simply run `npm run format` to execute `prettier` with the shared configuration, or `npm run lint` ro execute `eslint` similarly.
 
 ## Project-Level Customization
