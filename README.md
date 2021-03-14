@@ -19,8 +19,8 @@ Install the package that is relevant in your context and add some or all of the 
 "check": "npm-run-all --parallel check:ts format:ci lint",
 "check:ts": "tsc",
 "check:fix": "npm-run-all check:ts format lint:fix",
-"format": "prettier --write \"src/**/*.(js|ts|tsx|graphql|json)\" \"*.js\" \"*.ts\"",
-"format:ci": "prettier --list-different \"src/**/*.(js|ts|tsx|graphql|json)\" \"*.js\" \"*.ts\"",
+"format": "prettier --write \"src/**/*.(js|ts|tsx|graphql|json)\" \"*.(js|ts)\""",
+"format:ci": "prettier --list-different \"src/**/*.(js|ts|tsx|graphql|json)\" \"*.(js|ts)\"",
 "lint": "eslint --ext .js,.ts,.tsx src/",
 "lint:fix": "eslint --fix --ext .js,.ts,.tsx src/"
 ```
