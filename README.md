@@ -13,7 +13,7 @@ More packages for specific use cases will be added as needed (e.g., for NextJS p
 
 ## Usage
 
-Install the package that is relevant in your context and add some or all of the following scripts to your `package.json` (customizations might be needed depending on your context):
+Install the package that is relevant in your context and add some or all of the following scripts to your `package.json` if you are working on a Typescript project:
 
 ```
 "check": "npm-run-all --parallel check:ts format:ci lint",
@@ -23,6 +23,17 @@ Install the package that is relevant in your context and add some or all of the 
 "format:ci": "prettier --list-different \"src/**/*.(js|ts|tsx|graphql|json)\" \"*.(js|ts)\"",
 "lint": "eslint --ext .js,.ts,.tsx src/",
 "lint:fix": "eslint --fix --ext .js,.ts,.tsx src/"
+```
+
+Alternatively, use the following for a vanilla Javascript project:
+
+```
+"check": "npm-run-all --parallel format:ci lint",
+"check:fix": "npm-run-all format lint:fix",
+"format": "prettier --write \"src/**/*.(js|graphql|json)\" \"*.js\"",
+"format:ci": "prettier --list-different \"src/**/*.(js|graphql|json)\" \"*.js\"",
+"lint": "eslint --ext .js src/",
+"lint:fix": "eslint --fix --ext .js src/"
 ```
 
 Next, you need to create top-level configuration files for `prettier` and `eslint`. Create a file `.prettierrc.js` with the following contents (and take to import from the package you have actually installed):
